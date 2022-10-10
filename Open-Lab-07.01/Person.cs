@@ -17,7 +17,8 @@ namespace Open_Lab_07._01
 
         public TimeSpan GetAge()
         {
-            throw new NotImplementedException();
+            TimeSpan age = DateTime.Now - BornIn;
+            return age;
         }
     }
 }
